@@ -27,5 +27,25 @@ namespace fukuv0716
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            textBox2.Text = "" + (int.Parse(textBox2.Text) - 1);
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            textBox2.Text = "" + (int.Parse(textBox2.Text) + 1);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "" + (int.Parse(textBox1.Text) + 1);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "" + (int.Parse(textBox1.Text) - 1);
+        }
     }
 }
